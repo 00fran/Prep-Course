@@ -74,13 +74,12 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-var longitud1 = length(str1);
-var longitud2 = length(str2);
-if (longitud1==longitud2){
+var longitud1 = LENGTH (str1);
+var longitud2 = LENGTH (str2);
+if (longitud1 == longitud2){
   return true
 }else {
   return false
-
   }
 }
 
@@ -210,7 +209,7 @@ function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
   area = (alto*ancho)
-  return alto;
+  return area;
 
 }
 
