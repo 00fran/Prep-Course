@@ -109,7 +109,7 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  return x-y;
+  return x%y;
 }
 
 function esPar(num) {
@@ -176,7 +176,7 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  if (numero >0){
+  if (numero >= 0){
     return 'Es positivo'
   } else {
     return 'Es negativo'
